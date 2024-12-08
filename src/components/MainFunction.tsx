@@ -1,3 +1,5 @@
+import React from "react";
+
 function MainFunction(props: {
   funcName: string;
   calculation: string;
@@ -13,7 +15,14 @@ function MainFunction(props: {
     }
   }
 
-  return <button onClick={handleClick}>{props.funcName}</button>;
+  return (
+    <button
+      className="bg-[#AB4459] py-5 px-6 rounded-3xl border-black border-2 text-white"
+      onClick={handleClick}
+    >
+      {props.funcName}
+    </button>
+  );
 }
 
 export default MainFunction;

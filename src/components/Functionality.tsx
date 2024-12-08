@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Functionality(props: {
   funcName: string;
   calculation: string;
@@ -50,5 +52,12 @@ export default function Functionality(props: {
     }
   }
 
-  return <button onClick={handleClick}>{props.funcName}</button>;
+  return (
+    <button
+      className="bg-[#FF748B] py-5 px-8 rounded-3xl border-black border-2 text-white "
+      onClick={handleClick}
+    >
+      {props.funcName}
+    </button>
+  );
 }

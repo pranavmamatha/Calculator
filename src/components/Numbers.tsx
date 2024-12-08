@@ -21,5 +21,12 @@ export default function Numbers(props: {
       props.setCalculation(finalCalculation);
     }
   }
-  return <button onClick={handleClick}>{props.num}</button>;
+  return (
+    <button
+      className="bg-[#FF748B] py-5 px-8 rounded-3xl border-black border-2 text-white"
+      onClick={handleClick}
+    >
+      {props.num}
+    </button>
+  );
 }

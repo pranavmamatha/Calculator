@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-color: #541919; /* greenish grey */
+  background-color: #f72c5b;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Changed from align-content to align-items */
+  height: 100vh; /* Added to ensure the body takes the full height of the viewport */
+  margin: 0;
 }

@@ -1,3 +1,5 @@
+import React from "react";
+
 function Equal(props: {
   calculation: string;
   setCalculation: (a: string) => void;
@@ -17,7 +19,14 @@ function Equal(props: {
     }
   }
 
-  return <button onClick={handleClick}>=</button>;
+  return (
+    <button
+      className="bg-[#AB4459] py-5 px-8 rounded-3xl border-black border-2 text-white  "
+      onClick={handleClick}
+    >
+      =
+    </button>
+  );
 }
 
 export default Equal;
