@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [calculation, setCalculation] = useState("0");
   const [formatedCalculation, setFormatedCalculation] = useState("");
-  const [finalSolution, setFinalSolution] = useState("here");
+  const [finalSolution, setFinalSolution] = useState("Answer");
   const nums: string[] = ["9", "8", "7", "6", "5", "4", "3", "2", "1", "0"];
 
   const func1: string[] = ["÷", "×", "-", "+"];
