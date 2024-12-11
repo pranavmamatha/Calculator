@@ -15,7 +15,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+    "noFallthrough": true,
     "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true
   },
