@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Functionality(props: {
   funcName: string;
   calculation: string;

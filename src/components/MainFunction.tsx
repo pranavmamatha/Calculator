@@ -1,5 +1,3 @@
-import React from "react";
-
 function MainFunction(props: {
   funcName: string;
   calculation: string;

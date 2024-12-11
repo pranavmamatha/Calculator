@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import MainFunction from "./components/MainFunction";
 import Functionality from "./components/Functionality";

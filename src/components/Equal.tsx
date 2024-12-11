@@ -1,5 +1,3 @@
-import React from "react";
-
 function Equal(props: {
   calculation: string;
   setCalculation: (a: string) => void;
